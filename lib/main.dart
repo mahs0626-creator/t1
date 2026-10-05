@@ -120,6 +120,7 @@ class HomePage extends StatelessWidget{
 }
 
 class CoursesPage extends StatelessWidget{
+class CoursesPage extends StatelessWidget{
  final String user; const CoursesPage({super.key,required this.user});
  @override Widget build(BuildContext c)=>SafeArea(child:ListView(padding:const EdgeInsets.all(18),children:[
   Text('Courses',style:Theme.of(c).textTheme.headlineMedium?.copyWith(fontWeight:FontWeight.bold)),
